@@ -1,0 +1,3 @@
+win + R and run this command 'services.msc'
+
+then stop working of MySQL

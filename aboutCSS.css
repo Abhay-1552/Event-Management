@@ -1,0 +1,169 @@
+body{
+	font: 100%/1.5 "Open Sans", sans-serif;
+	width: 100%;
+	background-color: #f2f2f2;
+	-webkit-font-smoothing: antialiased;
+	margin-left: 0;
+}
+.brand-red{
+	color: #FF6952;
+}
+
+.brand-blue{
+	color: #30C0D8;
+}
+
+.wrapper{
+	margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 22rem;
+}
+
+.center{
+	text-align: center;
+}
+
+/* Initial styles/ Home Page*/
+
+/* About Page*/
+
+#hero-aboutpage{
+	background: url(http://weknowyourdreamz.com/images/mountain/mountain-04.jpg) center center / cover no-repeat;
+}
+
+/* Our Story */
+
+.our-story{
+	  padding: 3rem 1rem;
+    background: white;
+    box-shadow: 0 0 2px rgba(6,8,8,0.15);
+}
+
+.our-story h2{
+	margin-top: 0;
+}
+
+/* Who we are */
+
+.who-we-are{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 1rem;
+}
+
+
+.who-we-are img{
+	max-width: 150px;
+	max-height: 150px;
+	margin: 2rem 0;
+  box-shadow: 0 0 10px black;
+  border-radius: 50%;
+  transition: transform .4s ease;
+  transform: scale(1);
+}
+
+.who-we-are img:hover{
+	/*box-shadow: 0 0 50px #30c0d8;*/
+    transform: translate(0%, 10px) scale(1.40);
+}
+
+.who-we-are h3{
+	margin-bottom: 0;
+}
+
+.about-us-text{
+	padding: 0 6% 1rem 6%;
+
+}
+
+
+
+/* Our Priorities */
+
+.our-priorities{
+	box-shadow: 0 0 2px rgba(6,8,8,0.15);
+  padding: 3rem 1rem;
+  background: white;
+}
+
+.our-priorities ul{
+	padding-top: 1.5rem;     
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.our-priorities li{
+	text-align: center;
+}
+
+.our-priorities p{
+	padding: 0 6% 1rem 6%;
+}
+
+/* About page Call to Action */
+
+.about-page-cta{
+	background-color: #30c0d8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem 0 4rem 0
+}
+
+.about-page-cta h3{
+    margin-top: 0;
+    padding-top: 2rem;
+    color: white;
+}
+
+.about-page-cta a {
+	text-decoration: none;
+}
+
+.contact-us-button{
+	color: white;
+	background: #FF6952;
+	border-radius: 10%;
+	border: none;
+	padding: .75rem;
+	margin: 0;
+	transition: transform, background, .5s ease;
+  transform: scale(1);
+}
+
+.contact-us-button:hover{
+	background: #ff5339;
+    box-shadow: 0 0 6px white;
+    transform: scale(1.05);
+}
+
+.fa-ul{
+    list-style-type: none;
+}
+
+/* Hero image */
+
+.hero{
+    background-image: url(images/about_heading.png);
+}
+
+.hero-h1{
+	margin-bottom: 0;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.hero-p{
+	font-weight: bold;
+  color: white;
+  margin-top: 0;
+    text-shadow: 2px 2px 8px black;
+}

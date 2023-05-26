@@ -1,0 +1,20 @@
+body {
+    padding-top: 70px;
+    /* Add padding-top to account for the fixed navbar */
+    background-image: url(images\wave.png);
+}
+
+footer {
+    background-color: #3C6255;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #3C6255;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
